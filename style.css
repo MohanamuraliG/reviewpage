@@ -1,0 +1,66 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(216, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .innercontent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+  }
+  #image-con{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .info{
+    text-align: justify;
+  }
+  .buttons button{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        background-color: transparent;
+  }
+  .buttons button i {
+        font-size: 30px;
+  }
+  .randoms{
+    padding: 10px;
+    border:2px solid  rgb(24, 155, 155);
+    color:  rgb(24, 155, 155);
+
+  }
+  .randoms:hover{
+    background-color:  rgb(24, 155, 155);
+    color: white;
+  }
+  #pername{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #domain{
+    color: rgb(24, 155, 155);
+    font-size: 20px;
+  }
+  .line{
+    border-bottom: 2px solid  rgb(24, 155, 155);
+    width: 130px;
+    margin-top: -10px;
+    
+  }
